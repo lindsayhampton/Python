@@ -15,3 +15,9 @@ animal3 = raw_input("Enter a new animal: ")
 verb2 = raw_input("Enter a new verb: ")
 object2 = raw_input("Enter a new object: ")
 object3 = raw_input("Enter a new object: ")
+
+# Created arrays to organize similar information
+animal = [animal1, animal2, animal3]
+object = [object1, object2, object3]
+verb = [verb1, verb2]
+
