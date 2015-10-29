@@ -49,7 +49,7 @@ def area(x,y):
     a = x * y
     print a
 
-# area(20, 60) # function invocation
+area(20, 60) # function invocation
 
 # USER INPUT
 name = raw_input("Please enter your name: ")
@@ -62,6 +62,5 @@ print str(2015 - int(age)) + " was the year you were born."
 # && = and
 # || = or
 # != = not
-parents_with_them = true
 if year_born < 1994 :
     print "they can drink"

@@ -2,7 +2,6 @@
 # By Lindsay Hampton
 
 # Inputs for our Mad Lib:
-story = raw_input("Would you like to hear a story? ")
 year = raw_input("Enter a year from the past: ")
 number = raw_input("Enter a number: ")
 funnyWord = raw_input("Enter a funny word: ")
@@ -23,10 +22,10 @@ animal = [animal1, animal2, animal3]
 object = [object1, object2, object3]
 verb = [verb1, verb2]
 
-# Function to combine funny words as a string
-def diddle(funnyWord):
-    diddle = str(funnyWord + " " + funnyWord)
-    print diddle
+# # Function to combine funny words as a string
+# def diddle(funnyWord):
+#     diddle = str(funnyWord + " " + funnyWord)
+#     print diddle
 
 # Stringify the year
 age = str(2015 - int(year))
@@ -34,15 +33,15 @@ age = str(2015 - int(year))
 # The Mad Lib Itself
 
 madLib1 = "When I was "+age+" years old, I had "+number+" favorite nursery rhymes. But I've got to say, my favorite " \
-        "nursery rhyme of all time was called 'Hey "+ diddle(funnyWord) +"'. It went something like this:"
+        "nursery rhyme of all time was called 'Hey "+ funnyWord + funnyWord +"'. It went something like this:"
 
 
 
 # Conditional Loop w/ Logical Operator
-if story == "yes" or "Yes" or "YES":
-    print madLib1
+if int(year) > 2015:
+    print "Sorry, your year was invalid."
 else:
-    print "Okay, maybe next time."
+     print madLib1
 
 # Loop to show user the words they chose
 for a in answers:
