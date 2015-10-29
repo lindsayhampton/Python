@@ -2,6 +2,7 @@
 # By Lindsay Hampton
 
 # Inputs for our Mad Lib:
+story = raw_input("Would you like to hear a story? ")
 year = raw_input("Enter a year: ")
 number = raw_input("Enter a number: ")
 funnyWord = raw_input("Enter a funny word: ")
@@ -26,6 +27,12 @@ verb = [verb1, verb2]
 def diddle(funnyWord):
     diddle = str(funnyWord + " " + funnyWord)
     print diddle
+
+# Conditional Loop w/ Logical Operator
+if story == "yes" or "Yes" or "YES":
+    print madLib
+else:
+    print "Okay, maybe next time."
 
 # Loop to show user the words they chose
 for a in answers:
