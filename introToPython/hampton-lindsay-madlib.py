@@ -31,10 +31,16 @@ def diddle(funnyWord):
 # Stringify the year
 age = str(2015 - int(year))
 
+# The Mad Lib Itself
+
+madLib1 = "When I was "+age+" years old, I had "+number+" favorite nursery rhymes. But I've got to say, my favorite " \
+        "nursery rhyme of all time was called 'Hey "+ diddle(funnyWord) +"'. It went something like this:"
+
+
 
 # Conditional Loop w/ Logical Operator
 if story == "yes" or "Yes" or "YES":
-    print madLib
+    print madLib1
 else:
     print "Okay, maybe next time."
 
