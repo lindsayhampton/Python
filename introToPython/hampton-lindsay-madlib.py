@@ -30,12 +30,18 @@ def diddle(funny):
 # Stringify the year
 age = str(2015 - int(year))
 
+# Print line space to break up logs
+print " "
+
 # The Mad Lib Itself
 
 madLib1 = "When I was "+age+" years old, I had "+number+" favorite nursery rhymes. But I've got to say, my favorite " \
-        "nursery rhyme of all time was called Hey "+ funnyWord + " " + funnyWord +" and it went something like this: "
-madLib2 = "Hey "+ funnyWord + " " + funnyWord + ", the " + animal[0] + " and the " + instrument + ","
-madLib3 = "The "+ animal[1] + ""
+        "nursery rhyme of all time was called Hey '"+ funnyWord + " " + funnyWord +"' and it went something like this: "
+madLib2 = "'Hey "+ funnyWord + " " + funnyWord + ", the " + animal[0] + " and the " + instrument + ","
+madLib3 = "The "+ animal[1] + " " + verb[0] + " over the " + object[0] + "."
+madLib4 = "The "+ adjective + " " + animal[2] + " " + verb[1] + " to see such sport,"
+madLib5 = "And the "+ object[1] + " ran away with the " + object[2] +"!'"
+
 
 
 # Conditional Loop w/ Logical Operator
@@ -43,8 +49,14 @@ if int(year) > 2015:
     print "Sorry, your year was invalid."
 else:
      print madLib1
+     print madLib2
+     print madLib3
+     print madLib4
+     print madLib5
 
 # Loop to show user the words they chose
+# Print line space to break up logs
+print " "
 print "These are the answers that you chose: "
 for a in answers:
     print "You chose the word " + a + "."
