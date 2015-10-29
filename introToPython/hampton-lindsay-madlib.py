@@ -27,4 +27,6 @@ def diddle(funnyWord):
     diddle = str(funnyWord + " " + funnyWord)
     print diddle
 
-#
+# Loop to show user the words they chose
+for a in answers:
+    print "You chose the word " + a + "."
