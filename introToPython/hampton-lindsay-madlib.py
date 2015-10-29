@@ -28,6 +28,10 @@ def diddle(funnyWord):
     diddle = str(funnyWord + " " + funnyWord)
     print diddle
 
+# Stringify the year
+age = str(2015 - int(year))
+
+
 # Conditional Loop w/ Logical Operator
 if story == "yes" or "Yes" or "YES":
     print madLib
