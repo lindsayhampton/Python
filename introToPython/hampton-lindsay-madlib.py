@@ -3,7 +3,7 @@
 
 # Inputs for our Mad Lib:
 story = raw_input("Would you like to hear a story? ")
-year = raw_input("Enter a year: ")
+year = raw_input("Enter a year from the past: ")
 number = raw_input("Enter a number: ")
 funnyWord = raw_input("Enter a funny word: ")
 animal1 = raw_input("Enter an animal: ")
