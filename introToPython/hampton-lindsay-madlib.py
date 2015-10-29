@@ -21,3 +21,9 @@ animal = [animal1, animal2, animal3]
 object = [object1, object2, object3]
 verb = [verb1, verb2]
 
+# Function to combine funny words as a string
+def diddle(funnyWord):
+    diddle = str(funnyWord + " " + funnyWord)
+    print diddle
+
+#
