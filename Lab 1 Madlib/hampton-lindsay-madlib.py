@@ -20,12 +20,12 @@ object3 = raw_input("Enter a new object: ")
 answers = [year, number, funnyWord, animal1, instrument, animal2, verb1, object1, adjective, animal3, verb2, object2, object3]
 animal = [animal1, animal2, animal3]
 object = [object1, object2, object3]
-verb = [verb1, verb2]
+verb = {"one": verb1, "two": verb2}
 
 # Function to combine funny words
 def diddle(funny):
     diddle = funny + " " + funny
-    print diddle
+    return diddle
 
 # Stringify the year
 age = str(2015 - int(year))
@@ -36,10 +36,10 @@ print " "
 # The Mad Lib Itself
 
 madLib1 = "When I was "+age+" years old, I had "+number+" favorite nursery rhymes. But I've got to say, my favorite " \
-        "nursery rhyme of all time was called Hey '"+ funnyWord + " " + funnyWord +"' and it went something like this: "
-madLib2 = "'Hey "+ funnyWord + " " + funnyWord + ", the " + animal[0] + " and the " + instrument + ","
-madLib3 = "The "+ animal[1] + " " + verb[0] + " over the " + object[0] + "."
-madLib4 = "The "+ adjective + " " + animal[2] + " " + verb[1] + " to see such sport,"
+        "nursery rhyme of all time was called Hey '"+ diddle(funnyWord) +"' and it went something like this: "
+madLib2 = "'Hey "+ diddle(funnyWord) + ", the " + animal[0] + " and the " + instrument + ","
+madLib3 = "The "+ animal[1] + " " + verb["one"] + " over the " + object[0] + "."
+madLib4 = "The "+ adjective + " " + animal[2] + " " + verb["two"] + " to see such sport,"
 madLib5 = "And the "+ object[1] + " ran away with the " + object[2] +"!'"
 
 
