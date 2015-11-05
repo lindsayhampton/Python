@@ -20,3 +20,7 @@ class Library():
     def temp_conversion(self, f):
         celsius = (f-32) / 1.8
         return celsius
+
+    def kilo_conversion(self, k):
+        kilo = k * 1.60934
+        return kilo
