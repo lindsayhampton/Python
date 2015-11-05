@@ -14,3 +14,9 @@ class Printer():
 class Library():
     # Constructor Function
     def __init__(self):
+        pass
+
+    #Function to convert Fahrenheit to Celsius
+    def temp_conversion(self, f):
+        celsius = (f-32) / 1.8
+        return celsius
