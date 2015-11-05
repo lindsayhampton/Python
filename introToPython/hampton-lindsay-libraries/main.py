@@ -19,3 +19,15 @@ class MainHandler:
         kph = self.library.kilo_conversion(mph)
         feet = int(raw_input("Enter a length in Feet:"))
         cm = self.library.length_conversion(feet)
+
+        # Declare variables for Printer
+        self.printer.fahrenheit = fahrenheit
+        self.printer.celsius = celsius
+        self.printer.mph = mph
+        self.printer.kph = kph
+        self.printer.feet = feet
+        self.printer.cm = cm
+
+        self.printer.display_info()
+
+main_handler = MainHandler()
