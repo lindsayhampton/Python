@@ -11,6 +11,13 @@ class Printer():
         self.mph = 0
         self.kph = 0
 
+        # Function to display information in log
+        def display_info(self):
+            # Requires str() because variables used are integers
+            print str(self.fahrenheit) + " degrees fahrenheit is the equivalent of " + str(self.celsius) + " degrees celsius."
+            print str(self.mph) + " miles per hour is the equivalent of " + str(self.kph) + " kilometers per hour."
+
+
 class Library():
     # Constructor Function
     def __init__(self):
