@@ -14,5 +14,8 @@ class MainHandler:
         # Declare variable based on User's Input
         # int() is required to be capable of calculating inputted information
         fahrenheit = int(raw_input("Enter a temperature in Fahrenheit:"))
+        celsius = self.library.temp_conversion(fahrenheit)
         mph = int(raw_input("Enter a speed in Miles Per Hour(MPH):"))
+        kph = self.library.kilo_conversion(mph)
         feet = int(raw_input("Enter a length in Feet:"))
+        cm = self.library.length_conversion(feet)
