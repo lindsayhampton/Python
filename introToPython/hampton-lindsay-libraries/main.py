@@ -3,8 +3,7 @@ __author__ = 'lindsayhampton'
 # Import the Library file so as to access its files
 import library
 
-class MainHandler:
-    # I know you said to always use underscores in naming conventions, but the assignment clearly states to use this name.
+class MainHandler(library):
 
     def __init__(self):
         # Declare the attributes with classes from library.py
