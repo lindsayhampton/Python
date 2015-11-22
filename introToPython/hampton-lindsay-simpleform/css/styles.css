@@ -1,0 +1,138 @@
+body {
+    background: #e6e6e6;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+label, input {
+    margin: 7px;
+}
+
+.container, form {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.radio {
+    padding-right: 5px;
+    margin: 0 0 15px 0;
+}
+
+.container h4 {
+    padding: 0;
+    margin: 0;
+    line-height: 1px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 50px;
+    color: #31b0d5;
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    margin-left: 25px;
+}
+
+section {
+    background: #FFF;
+    border-radius: 15px;
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 0 5px;
+    margin-bottom: 25px;
+}
+#links {
+    background: none;
+    padding-top: 15px;
+    height: 40px;
+}
+
+#links a {
+    background: #fff;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    padding: 10px 5px 0;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #31b0d5;
+}
+
+strong {
+    color: #d9534f;
+}
+
+a {
+    color: #d9534f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+h2, h4 {
+    color: #31b0d5;
+}
+
+li {
+    list-style-type: none;
+    background: #FFF;
+    border-radius: 15px;
+    width: 20%;
+    padding: 0 0 20px 20px;
+    float: left;
+    margin: 10px;
+}
+
+li h2 {
+    font-size: 23px;
+    margin: 15px 0;
+}
+
+button {
+    float: right;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    border: none;
+}
+
+button:hover {
+    background: #666;
+}
+
+form {
+    width: 92%;
+    margin: 15px auto;
+    background: #FFF;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+#form {
+    margin: 0 auto;
+    width: 30%;
+}
+
+#submit {
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0 25px;
+}
